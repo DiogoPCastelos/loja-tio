@@ -348,12 +348,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    /**
-       * Remove the inner border and padding in Firefox.
-       */
-    /**
-       * Restore the focus styles unset by the previous rule.
-       */
+    border-style: none;
+    padding: 0;
 }
 
 button::-moz-focus-inner,
